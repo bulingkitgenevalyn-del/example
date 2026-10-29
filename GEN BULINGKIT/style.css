@@ -1,0 +1,199 @@
+nav{
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    margin-right: 30px;
+}
+.links{
+    display: flex;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.active{
+    background-color: black;
+    border-radius: 5px;
+}
+.links a:hover{
+    background-color: green;
+    border-radius: 5px;
+    color: black;
+}
+.search{
+    margin-left: auto;
+
+}
+.search input{
+    padding: 5px 10px;
+    /* border-radius: 5px; */
+}
+/* .search button{
+    padding: 5px 10px;
+    border-radius: 5px;
+} */
+
+#home{
+    background-color: rgb(170, 109, 228);
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero::selection{
+    background-color: rgb(24, 114, 204);
+    color: black;
+}
+.hero h1{
+    font-size: 40px;
+    color: rgb(255, 253, 255);
+    margin-bottom: 15px;
+}
+.hero p{
+    color: white;
+    margin-bottom: 25px;
+}
+.button{
+    background-color: mediumpurple;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.button:hover{
+   background-color: rgb(24, 114, 204);
+   color: white;
+}
+.section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 5opx 20px;
+    text-align: center;
+}
+.section h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.section p{
+    color: blue;
+    margin-bottom: 30px;
+}
+.about-image{
+    display: flex;
+}
+.about-image .card{
+    padding: 10px;
+}
+.cards{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.card{
+    flex: 1;
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+
+}
+.card img{
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.card-img element{
+    width: 100%;
+    hight: 100%;
+    object-fit: cover;
+}
+#welcome{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 10px;
+    text-align: center;
+}
+.welcome-text, .welcome-image{
+    flex: 1;
+}
+/* .welcome-image{
+    flex: 1;
+} */
+ /* p, h2{
+    color:  red;
+ } para ni sya matipo basta same lang*/ 
+.welcome-image img{
+    width: 70%;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.featured{
+    text-align: center;
+    padding: 70px 10%;
+    background-color: gray;
+}
+.featured-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.featured-card img{
+    width: 400px;
+    border-radius: 10px;
+}
+/* .featured p, h2, h3{
+    color: red
+} */
+ /* .featured-text{
+    color: blue;
+ } */
+  /* .featured-text{
+    color: red;
+    text-align: center;
+  } */
+.reason-card{
+    flex: 1;
+    padding: 25px;
+    background-color: rgb(101, 190, 241);
+    border-radius: 10px;
+}
+.reason-card h3{
+    margin-top: 0;
+}
+.qoute{
+    font-sie: 25px;
+    font-style: italic;
+    font-family: Lobster;
+    color: ligthblue;
+}
+.qoute span{
+   color:mediumblue;
+   font-style: italic;
+}
+.fave-movie span{
+    color: blue;
+    font-style: italic;
+    font-size: 25px;
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: white;
+}
+

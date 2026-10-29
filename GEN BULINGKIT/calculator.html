@@ -1,0 +1,43 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple calculator</title>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+    <button onclick="calculate()">calculate</button>
+
+    <script>
+        function calculate(){
+           let num1 = Number(prompt("Enter the first number: "))
+           let num2 = Number(prompt("Enter the second number"))
+           let Operator = prompt("Enter Operator (+, -, *, /): ")
+
+           let result;
+
+           if(Operator === "+"){
+            result = num1 + num2
+           }else if (Operator === "-"){
+            result= num1 - num2
+           }else if (Operator === ("*")){
+            result = num1 * num2
+           }else if (Operator === "/"){
+            if(num2 === 0){
+                alert("Cannot divide by zero");
+                return;
+
+            }
+            result = num1 / num2;
+           }
+           else{
+            alert("Invalid operation");
+            return;
+            }
+           alert ("The result is: " + result);
+
+        }
+    </script>
+</body>
+</html> -->
