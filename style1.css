@@ -1,0 +1,48 @@
+#loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.logcard{
+    width: 350px;
+    padding: 30px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4 10px rgba(0, 0, 0, 0.1);
+}
+.logcard h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.logcard label{
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.logcard input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.login {
+    text-align: center;
+
+}
+.login button{
+    width: 100%;
+    padding: 10px 20px;
+    background-color:darkgray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login button:hover{
+    background-color: black;
+    background-color: white;
